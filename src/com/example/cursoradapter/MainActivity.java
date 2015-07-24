@@ -19,10 +19,4 @@ public class MainActivity extends ListActivity {
 		setListAdapter(new MyCursorAdapter(getApplicationContext(), cursor));
 	}
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
-	}
-
 }
